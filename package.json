@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "init": "cd quartz && npm i",
+    "init": "cd quartz && npm ci",
     "dev": "cd quartz && npx quartz build -d ../src -o ../public --serve",
     "build": "cd quartz && npx quartz build -d ../src -o ../public"
   }
