@@ -1,0 +1,11 @@
+{
+  "name": "notes",
+  "description": "My public notes",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "init": "cd quartz && npm i",
+    "dev": "cd quartz && npx quartz build -d ../src -o ../public --serve",
+    "build": "cd quartz && npx quartz build -d ../src -o ../public"
+  }
+}
